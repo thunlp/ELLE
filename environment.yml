@@ -1,0 +1,10 @@
+name: ELLE
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - pip
+  - pip:
+    - git+https://github.com/kernelmachine/allennlp.git@4ae123d2c3bfb1ea3ce7362cb6c5bca3d094ffa7
+    - pytorch-transformers==1.2.0
+    - transformers==4.5.1
