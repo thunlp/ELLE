@@ -17,10 +17,9 @@ pip3 install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cu
 
 ## Available Pre-trained Models
 
-We've prepared pre-trained checkpoints that takes $\text{BERT}_\text{L6_D384}$ as the initial model in fairseq and huggingface formats. 
+We've prepared [pre-trained checkpoints](https://drive.google.com/drive/folders/1aHAdnXm0s3WU-JUc2CXiSA0O3qnJtfwn?usp=sharing) that takes $\text{BERT}_\text{L6_D384}$ as the initial model in fairseq and huggingface formats. 
 
-link：https://pan.baidu.com/s/1LDGIs5y3WAvvCzG4zJiBjg 
-password：n003
+
 
 ## Fine-tune
 
@@ -108,7 +107,7 @@ export PYTHONPATH=./fairseq_ELLE
 cd ./fairseq_ELLE/examples/roberta/
 ```
 
-Pre-train PLMs with ELLE that takes $\text{BERT}_\text{L6_D384}$ as the initial model:
+Pre-train PLMs with ELLE that takes $\text{BERT}_\text{L6_D384}$ the initial model:
 
 ```
 bash train_base_prompt.sh 
@@ -153,3 +152,4 @@ cp -r /downstream/base_prompt_files/* /checkpoints_hf_new
 ```
 
 Then you can do fine-tuning as **Fine-tune** Section.
+
