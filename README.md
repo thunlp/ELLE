@@ -135,7 +135,7 @@ Note that you need to replace the  **DATA_DIR** and **memory_dir** variables in 
 Firstly, you need to organize your fairseq PLM checkpoint like the following: 
 
 ```
-`checkpoints_fairseq_new/roberta_base_ELLE/checkpoint_last.pt`
+checkpoints_fairseq_new/roberta_base_ELLE/checkpoint_last.pt
 ```
 
 and copy the dictionary file:
