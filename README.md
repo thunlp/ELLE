@@ -1,6 +1,6 @@
 # ELLE: Efficient Lifelong Pre-training for Emerging Data
 
-Code associated with the ELLE: Efficient Lifelong Pre-training for Emerging Data ACL 2020 paper
+Code associated with the ELLE: Efficient Lifelong Pre-training for Emerging Data ACL 2022 paper
 
 ## Citation
 
