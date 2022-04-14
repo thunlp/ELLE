@@ -96,7 +96,7 @@ bash finetune_cs.sh
 
 ### Prepare Datasets
 
-The dataset of WB domain follows https://arxiv.org/abs/2105.13880 and datasets of News, Review, Bio, CS domains follow https://github.com/allenai/dont-stop-pretraining.  You also need to cut a part of training dataset as the memory. In our main experiment, we take 1G data per domain as the memory.
+The dataset of WB domain follows https://arxiv.org/abs/2105.13880 and datasets of News, Review, Bio, CS domains follow https://github.com/allenai/dont-stop-pretraining.  You also need to cut a part of training dataset as the memory. In our main experiment, we take 1G data per domain as the memory. We have provided the pre-training data (already processed in fairseq format) we use in [google drive](https://drive.google.com/drive/folders/1l1cuN9JQUqZTM_1NFNtetfiXMKWqGTUo?usp=sharing), covering five pre-training domains (WB, News, Reviews, BIO and CS). We sample around 3400M tokens for each domain.
 
 ### Pre-training with ELLE
 
